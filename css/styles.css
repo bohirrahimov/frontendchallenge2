@@ -55,3 +55,18 @@ button{
 .luxuryLink{
   color: hsl(179, 100%, 13%);
 }
+@media screen and (max-width:900px) {
+  .container{
+    height: 1700px;
+    flex-direction: column;
+  }
+  .sedans{
+    border-radius: 10px 10px 0 0;
+  }
+  .suvs{
+    border-radius: 0 0 0 0;
+  }
+  .luxury{
+    border-radius: 0 0 10px 10px;
+  }
+}
